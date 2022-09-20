@@ -1,0 +1,20 @@
+/*
+ * PINconfigurations.h
+ */ 
+
+
+#ifndef PINCONFIGURATIONS_H_
+#define PINCONFIGURATIONS_H_
+
+//#define OBJECT	PORTNAME, PINNUMBER
+#define CROSSWALK_BUTTON	D, PIN2
+
+#define CARS_GREEN			A, PIN2
+#define CARS_YELLOW			A, PIN1
+#define CARS_RED			A, PIN0
+
+#define PEDESTRIANS_GREEN	B, PIN2
+#define PEDESTRIANS_YELLOW	B, PIN1
+#define PEDESTRIANS_RED		B, PIN0
+
+#endif /* PINCONFIGURATIONS_H_ */
